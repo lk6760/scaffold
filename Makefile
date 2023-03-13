@@ -10,6 +10,10 @@ install-azure:
 	pip install --upgrade pip &&\
 		pip install -r requirements-azure.txt
 
+install-gcp:
+	pip install --upgrade pip &&\
+		pip install -r requirements-gcp.txt
+
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 
