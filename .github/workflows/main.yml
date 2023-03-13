@@ -1,4 +1,4 @@
-name: Python AWS 3.10
+name: AWS Python 3.10
 
 on: [push]
 
